@@ -4,35 +4,164 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Projects title here  -->
   <title>HTML projects</title>
 </head>
 <body>
   <!-- Header section starts here  -->
-  <h1>Muhammad Jakaria Mahmud </h1>
+  <h1>Muhammad Jakaria Mahmud</h1>
+   <!-- Jakaria's photo  -->
+   <img src="./images/jakaria.jpg" height="300px" width="200px" alt="Jakaria's photo"> <br>
+   <mark>Jr. Web Developer</mark> <br>
+  <strong>Kushtia, Bangladesh</strong>
+  <p>
+    <a href="" target="_blank">Facebook</a>
+    <a href="" target="_blank">Linkedin</a>
+    <a href="" target="_blank">GitHub</a>
+    <a href="" target="_blank">Instagram</a>
+    <a href="tel: + 880 1736344458" target="_blank">Phone</a>
+    <a href="mailto:jakariamahmud016@gmail.com" target="_blank">Email</a>
+  </p>
+  <hr>
   <!-- Header section ends here  -->
 
   <!-- Summary section starts here  -->
-  <h2>Summary</h2>
+  <h2><em>Summary</em></h2>
+  <p>Learning full-stack development since last year. Want to learn new technologies and become a better engineer in the future. Since about like 1year ago I learned HTML, and CSS3 & do projects with them. Then I am in love with Web Development so I learned Javascript & so on Bootstrap5 and Tailwind. And for more technology education I do a web development course from an online institute called Programming Hero. From there I learn 𝐑𝐞𝐚𝐜𝐭𝐉𝐬, 𝐍𝐨𝐝𝐞𝐉𝐬, 𝐄𝐱𝐩𝐫𝐞𝐬𝐬𝐉𝐬, 𝐚𝐧𝐝 𝐌𝐨𝐧𝐠𝐨𝐃𝐁, and now Learning something new. Although I am a law student butI I am love to coding.</p>
   <!-- Summary section ends here  -->
 
   <!-- Employment history section start here  -->
-  <h2>Employment History</h2>
+  <h2><em>Employment History</em></h2>
+  <ol>
+
+    <li>
+      <b>Lead Generator at TechBond IT</b>
+      <span>| 01 January 2020 to 01 February 2022</span>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti accusamus molestiae alias nihil voluptatum optio quas atque. Provident, vel ad!</p>
+    </li> 
+
+    <li>
+      <b>Front-end Developer</b>
+      <span>| 01 January 2023 to Present</span>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, esse debitis! Itaque voluptatibus doloremque sint sunt tempora inventore vitae natus!</p>
+    </li> 
+
+  </ol>
   <!-- Employment history section ends here  -->
 
   <!-- Education section starts here  -->
-  <h2>Education</h2>
+  <h2><em>Education</em></h2>
+  <ul>
+    <li>
+      <strong>LL.B hons in Law</strong>
+      <p>Islamic University, Kushtia, Bangladesh.</p>
+      <p>Grading point: 3.15/4</p>
+    </li>
+    <li>
+      <strong>HSC(Alim) in Arts</strong>
+      <p>Keorabunia Ishakia Alim Madrasah,Keorabunia , Barguna.</p>
+      <p>Grading point: 5.00/5</p>
+    </li>
+    <li>
+      <strong>SSC(Dhakil) in Arts</strong>
+      <p>Keorabunia Ishakia Alim Madrasah,Keorabunia , Barguna.</p>
+      <p>Grading point: 5.00/5</p>
+    </li>
+  </ul>
   <!-- Education section ends here  -->
 
   <!-- Skills section starts here  -->
-  <h2>Skills</h2>
+  <h2><em>Skills</em></h2>
+  <table border="">
+    <thead>
+      <tr>
+        <th>Technology</th>
+        <th>Skills level</th>
+        <th>Framework</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>HTML</td>
+        <td>&star; &star; &star; &star;</td>
+        <td>Bootstrap</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>&star; &star; &star;</td>
+        <td>Tailwind CSS</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>&star; &star;</td>
+        <td>KitWind</td>
+      </tr>
+    </tbody>
+  </table>
   <!-- Skills section ends here  -->
 
   <!-- Contact section starts here  -->
-  <h2>Contact</h2>
-  <!-- Contact section ends here  -->
+  <h2><em>Contact</em></h2>
+  <form>
+
+    <div>
+      <label for="name">Name</label>
+    <input type="text" name="name" id="name" placeholder="Enter your name">
+    </div>
+
+    <div>
+      <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="Enter your email">
+    </div>
+
+    <div>
+      <span>Gender:</span>
+      <input type="radio" name="gender" id="male">
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female">
+      <label for="female">Female</label>
+    </div>
+
+    <div>
+      <label for="religin">Religion</label>
+      <input type="checkbox" name="islam" id="islam" checked>
+      <span>Islam</span>
+      <input type="checkbox" name="hindu" id="hindu">
+      <span>Hindu</span>
+      <input type="checkbox" name="cristian" id="cristian">
+      <span>Cristian</span>
+    </div>
+
+    <div>
+      <label for="occupation">Occupation</label>
+      <select name="occupation" id="occupation">
+        <option value="student" >Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="clerk">Clerk</option>
+        <option value="others">Others</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="message">Message</label> <br>
+      <textarea name="message" id="message" cols="30" rows="10" required>Leave a message for me</textarea>
+    </div>
+
+    <div>
+      <input type="submit" name="submit" id="submit">
+    </div>
+
+  </form>
+  <br>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.740014055858!2d89.15379689999999!3d23.720976600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39feeb2b4cf64fa3%3A0xba9964d667f3fd11!2sIslamic%20University%20Thana%2C%20Kushtia!5e0!3m2!1sen!2sbd!4v1674408057942!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <!-- Contact section ends here  --> 
 
   <!-- Footer section starts here  -->
-  <h2>Footer</h2>
+  <footer>
+    <p>Coding with &hearts; Jakaria Mahmud &hearts;</p>
+    <p>Copyright &copy 2023 all right reserved by Jakaria</p>
+  </footer>
   <!-- Footer section ends here  -->
 </body>
 </html>
